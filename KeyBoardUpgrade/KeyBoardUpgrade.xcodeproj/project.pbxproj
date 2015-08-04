@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA6418B21B70C54000CE7121 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA6418B11B70C54000CE7121 /* main.m */; };
+		FA6418B51B70C54000CE7121 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA6418B41B70C54000CE7121 /* AppDelegate.m */; };
+		FA6418B81B70C54000CE7121 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA6418B71B70C54000CE7121 /* ViewController.m */; };
+		FA6418BB1B70C54000CE7121 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA6418B91B70C54000CE7121 /* Main.storyboard */; };
+		FA6418BD1B70C54000CE7121 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA6418BC1B70C54000CE7121 /* Images.xcassets */; };
+		FA6418C01B70C54000CE7121 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA6418BE1B70C54000CE7121 /* LaunchScreen.xib */; };
+		FA6418CC1B70C54000CE7121 /* KeyBoardUpgradeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA6418CB1B70C54000CE7121 /* KeyBoardUpgradeTests.m */; };
+		FA6418D81B70C5A300CE7121 /* KeyBoardAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = FA6418D71B70C5A300CE7121 /* KeyBoardAnimation.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA6418C61B70C54000CE7121 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA6418A41B70C54000CE7121 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA6418AB1B70C54000CE7121;
+			remoteInfo = KeyBoardUpgrade;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA6418AC1B70C54000CE7121 /* KeyBoardUpgrade.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeyBoardUpgrade.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA6418B01B70C54000CE7121 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA6418B11B70C54000CE7121 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FA6418B31B70C54000CE7121 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FA6418B41B70C54000CE7121 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FA6418B61B70C54000CE7121 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FA6418B71B70C54000CE7121 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FA6418BA1B70C54000CE7121 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA6418BC1B70C54000CE7121 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FA6418BF1B70C54000CE7121 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FA6418C51B70C54000CE7121 /* KeyBoardUpgradeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeyBoardUpgradeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA6418CA1B70C54000CE7121 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA6418CB1B70C54000CE7121 /* KeyBoardUpgradeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyBoardUpgradeTests.m; sourceTree = "<group>"; };
+		FA6418D61B70C5A300CE7121 /* KeyBoardAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyBoardAnimation.h; sourceTree = "<group>"; };
+		FA6418D71B70C5A300CE7121 /* KeyBoardAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyBoardAnimation.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA6418A91B70C54000CE7121 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA6418C21B70C54000CE7121 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA6418A31B70C54000CE7121 = {
+			isa = PBXGroup;
+			children = (
+				FA6418AE1B70C54000CE7121 /* KeyBoardUpgrade */,
+				FA6418C81B70C54000CE7121 /* KeyBoardUpgradeTests */,
+				FA6418AD1B70C54000CE7121 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA6418AD1B70C54000CE7121 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA6418AC1B70C54000CE7121 /* KeyBoardUpgrade.app */,
+				FA6418C51B70C54000CE7121 /* KeyBoardUpgradeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA6418AE1B70C54000CE7121 /* KeyBoardUpgrade */ = {
+			isa = PBXGroup;
+			children = (
+				FA6418D51B70C5A300CE7121 /* keyBoardAnimation */,
+				FA6418B31B70C54000CE7121 /* AppDelegate.h */,
+				FA6418B41B70C54000CE7121 /* AppDelegate.m */,
+				FA6418B61B70C54000CE7121 /* ViewController.h */,
+				FA6418B71B70C54000CE7121 /* ViewController.m */,
+				FA6418B91B70C54000CE7121 /* Main.storyboard */,
+				FA6418BC1B70C54000CE7121 /* Images.xcassets */,
+				FA6418BE1B70C54000CE7121 /* LaunchScreen.xib */,
+				FA6418AF1B70C54000CE7121 /* Supporting Files */,
+			);
+			path = KeyBoardUpgrade;
+			sourceTree = "<group>";
+		};
+		FA6418AF1B70C54000CE7121 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA6418B01B70C54000CE7121 /* Info.plist */,
+				FA6418B11B70C54000CE7121 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FA6418C81B70C54000CE7121 /* KeyBoardUpgradeTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA6418CB1B70C54000CE7121 /* KeyBoardUpgradeTests.m */,
+				FA6418C91B70C54000CE7121 /* Supporting Files */,
+			);
+			path = KeyBoardUpgradeTests;
+			sourceTree = "<group>";
+		};
+		FA6418C91B70C54000CE7121 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA6418CA1B70C54000CE7121 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FA6418D51B70C5A300CE7121 /* keyBoardAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				FA6418D61B70C5A300CE7121 /* KeyBoardAnimation.h */,
+				FA6418D71B70C5A300CE7121 /* KeyBoardAnimation.m */,
+			);
+			path = keyBoardAnimation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA6418AB1B70C54000CE7121 /* KeyBoardUpgrade */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA6418CF1B70C54000CE7121 /* Build configuration list for PBXNativeTarget "KeyBoardUpgrade" */;
+			buildPhases = (
+				FA6418A81B70C54000CE7121 /* Sources */,
+				FA6418A91B70C54000CE7121 /* Frameworks */,
+				FA6418AA1B70C54000CE7121 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KeyBoardUpgrade;
+			productName = KeyBoardUpgrade;
+			productReference = FA6418AC1B70C54000CE7121 /* KeyBoardUpgrade.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA6418C41B70C54000CE7121 /* KeyBoardUpgradeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA6418D21B70C54000CE7121 /* Build configuration list for PBXNativeTarget "KeyBoardUpgradeTests" */;
+			buildPhases = (
+				FA6418C11B70C54000CE7121 /* Sources */,
+				FA6418C21B70C54000CE7121 /* Frameworks */,
+				FA6418C31B70C54000CE7121 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA6418C71B70C54000CE7121 /* PBXTargetDependency */,
+			);
+			name = KeyBoardUpgradeTests;
+			productName = KeyBoardUpgradeTests;
+			productReference = FA6418C51B70C54000CE7121 /* KeyBoardUpgradeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA6418A41B70C54000CE7121 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Alex;
+				TargetAttributes = {
+					FA6418AB1B70C54000CE7121 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					FA6418C41B70C54000CE7121 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = FA6418AB1B70C54000CE7121;
+					};
+				};
+			};
+			buildConfigurationList = FA6418A71B70C54000CE7121 /* Build configuration list for PBXProject "KeyBoardUpgrade" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA6418A31B70C54000CE7121;
+			productRefGroup = FA6418AD1B70C54000CE7121 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA6418AB1B70C54000CE7121 /* KeyBoardUpgrade */,
+				FA6418C41B70C54000CE7121 /* KeyBoardUpgradeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA6418AA1B70C54000CE7121 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA6418BB1B70C54000CE7121 /* Main.storyboard in Resources */,
+				FA6418C01B70C54000CE7121 /* LaunchScreen.xib in Resources */,
+				FA6418BD1B70C54000CE7121 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA6418C31B70C54000CE7121 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA6418A81B70C54000CE7121 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA6418B81B70C54000CE7121 /* ViewController.m in Sources */,
+				FA6418B51B70C54000CE7121 /* AppDelegate.m in Sources */,
+				FA6418B21B70C54000CE7121 /* main.m in Sources */,
+				FA6418D81B70C5A300CE7121 /* KeyBoardAnimation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA6418C11B70C54000CE7121 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA6418CC1B70C54000CE7121 /* KeyBoardUpgradeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA6418C71B70C54000CE7121 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA6418AB1B70C54000CE7121 /* KeyBoardUpgrade */;
+			targetProxy = FA6418C61B70C54000CE7121 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA6418B91B70C54000CE7121 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA6418BA1B70C54000CE7121 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA6418BE1B70C54000CE7121 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA6418BF1B70C54000CE7121 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA6418CD1B70C54000CE7121 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FA6418CE1B70C54000CE7121 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA6418D01B70C54000CE7121 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KeyBoardUpgrade/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FA6418D11B70C54000CE7121 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KeyBoardUpgrade/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FA6418D31B70C54000CE7121 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KeyBoardUpgradeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KeyBoardUpgrade.app/KeyBoardUpgrade";
+			};
+			name = Debug;
+		};
+		FA6418D41B70C54000CE7121 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KeyBoardUpgradeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KeyBoardUpgrade.app/KeyBoardUpgrade";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA6418A71B70C54000CE7121 /* Build configuration list for PBXProject "KeyBoardUpgrade" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA6418CD1B70C54000CE7121 /* Debug */,
+				FA6418CE1B70C54000CE7121 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA6418CF1B70C54000CE7121 /* Build configuration list for PBXNativeTarget "KeyBoardUpgrade" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA6418D01B70C54000CE7121 /* Debug */,
+				FA6418D11B70C54000CE7121 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FA6418D21B70C54000CE7121 /* Build configuration list for PBXNativeTarget "KeyBoardUpgradeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA6418D31B70C54000CE7121 /* Debug */,
+				FA6418D41B70C54000CE7121 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA6418A41B70C54000CE7121 /* Project object */;
+}

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="o9C-3A-OhX">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <scenes>
+        <!--键盘遮挡输入-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LiE-oh-Gf8">
+                                <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YaN-Cy-tox">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="504"/>
+                                        <subviews>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="x11-OQ-gjK">
+                                                <rect key="frame" x="20" y="20" width="280" height="30"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="30" id="kYn-Vj-Xsh"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                                <connections>
+                                                    <outlet property="delegate" destination="vXZ-lx-hvc" id="nuI-Rk-USk"/>
+                                                </connections>
+                                            </textField>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ufU-rh-hTa">
+                                                <rect key="frame" x="20" y="90" width="280" height="30"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="30" id="pYL-Ge-sVB"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                                <connections>
+                                                    <outlet property="delegate" destination="vXZ-lx-hvc" id="7hL-NZ-cF4"/>
+                                                </connections>
+                                            </textField>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="47E-Vz-d1g">
+                                                <rect key="frame" x="20" y="160" width="280" height="30"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="30" id="b7e-gL-scO"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                                <connections>
+                                                    <outlet property="delegate" destination="vXZ-lx-hvc" id="O32-OZ-t2V"/>
+                                                </connections>
+                                            </textField>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mYc-nw-zcI">
+                                                <rect key="frame" x="20" y="230" width="280" height="30"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="30" id="6VB-XP-1RQ"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                                <connections>
+                                                    <outlet property="delegate" destination="vXZ-lx-hvc" id="jkY-X9-MVo"/>
+                                                </connections>
+                                            </textField>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="PxW-Ct-9uL">
+                                                <rect key="frame" x="20" y="300" width="280" height="30"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="30" id="VHS-T0-QHm"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                                <connections>
+                                                    <outlet property="delegate" destination="vXZ-lx-hvc" id="AW3-FR-mfa"/>
+                                                </connections>
+                                            </textField>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bSO-wS-KWb">
+                                                <rect key="frame" x="20" y="370" width="280" height="30"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="30" id="V7p-Vg-dBF"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                                <connections>
+                                                    <outlet property="delegate" destination="vXZ-lx-hvc" id="RQr-vS-UHP"/>
+                                                </connections>
+                                            </textField>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="PxW-Ct-9uL" secondAttribute="trailing" constant="20" id="0qc-Eq-Ssd"/>
+                                            <constraint firstItem="bSO-wS-KWb" firstAttribute="top" secondItem="PxW-Ct-9uL" secondAttribute="bottom" constant="40" id="9tM-31-ZfT"/>
+                                            <constraint firstItem="ufU-rh-hTa" firstAttribute="leading" secondItem="YaN-Cy-tox" secondAttribute="leading" constant="20" id="Bnk-R2-FJo"/>
+                                            <constraint firstAttribute="bottom" secondItem="bSO-wS-KWb" secondAttribute="bottom" constant="104" id="NoD-NR-ZTL"/>
+                                            <constraint firstAttribute="trailing" secondItem="mYc-nw-zcI" secondAttribute="trailing" constant="20" id="VQh-WS-3hE"/>
+                                            <constraint firstItem="ufU-rh-hTa" firstAttribute="top" secondItem="x11-OQ-gjK" secondAttribute="bottom" constant="40" id="WUH-u6-8Ui"/>
+                                            <constraint firstItem="mYc-nw-zcI" firstAttribute="top" secondItem="47E-Vz-d1g" secondAttribute="bottom" constant="40" id="Wxv-Qm-cig"/>
+                                            <constraint firstAttribute="trailing" secondItem="47E-Vz-d1g" secondAttribute="trailing" constant="20" id="cNE-Bh-aUs"/>
+                                            <constraint firstItem="47E-Vz-d1g" firstAttribute="leading" secondItem="YaN-Cy-tox" secondAttribute="leading" constant="20" id="cz9-He-7fW"/>
+                                            <constraint firstItem="mYc-nw-zcI" firstAttribute="leading" secondItem="YaN-Cy-tox" secondAttribute="leading" constant="20" id="gjS-zZ-wjS"/>
+                                            <constraint firstItem="bSO-wS-KWb" firstAttribute="leading" secondItem="YaN-Cy-tox" secondAttribute="leading" constant="20" id="gl9-m2-1eH"/>
+                                            <constraint firstItem="x11-OQ-gjK" firstAttribute="top" secondItem="YaN-Cy-tox" secondAttribute="top" constant="20" id="hPc-pV-Ku7"/>
+                                            <constraint firstAttribute="trailing" secondItem="ufU-rh-hTa" secondAttribute="trailing" constant="20" id="jYm-lF-YAb"/>
+                                            <constraint firstItem="47E-Vz-d1g" firstAttribute="top" secondItem="ufU-rh-hTa" secondAttribute="bottom" constant="40" id="nd0-iX-q0y"/>
+                                            <constraint firstAttribute="trailing" secondItem="bSO-wS-KWb" secondAttribute="trailing" constant="20" id="qYe-Tm-ZqN"/>
+                                            <constraint firstItem="x11-OQ-gjK" firstAttribute="leading" secondItem="YaN-Cy-tox" secondAttribute="leading" constant="20" id="rGA-H8-8TQ"/>
+                                            <constraint firstAttribute="trailing" secondItem="x11-OQ-gjK" secondAttribute="trailing" constant="20" id="u9s-Wz-rJf"/>
+                                            <constraint firstItem="PxW-Ct-9uL" firstAttribute="leading" secondItem="YaN-Cy-tox" secondAttribute="leading" constant="20" id="vuq-8L-SX6"/>
+                                            <constraint firstItem="PxW-Ct-9uL" firstAttribute="top" secondItem="mYc-nw-zcI" secondAttribute="bottom" constant="40" id="wUT-5B-hcC"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="YaN-Cy-tox" firstAttribute="leading" secondItem="LiE-oh-Gf8" secondAttribute="leading" id="2UA-LH-uNQ"/>
+                                    <constraint firstItem="YaN-Cy-tox" firstAttribute="height" secondItem="LiE-oh-Gf8" secondAttribute="height" priority="999" id="Fos-ul-ikS"/>
+                                    <constraint firstItem="YaN-Cy-tox" firstAttribute="top" secondItem="LiE-oh-Gf8" secondAttribute="top" id="ZPF-J4-p6u"/>
+                                    <constraint firstItem="YaN-Cy-tox" firstAttribute="width" secondItem="LiE-oh-Gf8" secondAttribute="width" id="kCD-ek-fVb"/>
+                                    <constraint firstAttribute="bottom" secondItem="YaN-Cy-tox" secondAttribute="bottom" constant="1" id="t7y-P5-cUw"/>
+                                    <constraint firstAttribute="trailing" secondItem="YaN-Cy-tox" secondAttribute="trailing" id="tAq-c7-e1A"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="LiE-oh-Gf8" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="2oy-3p-dO4"/>
+                            <constraint firstAttribute="trailing" secondItem="LiE-oh-Gf8" secondAttribute="trailing" id="4tl-kT-zgU"/>
+                            <constraint firstItem="LiE-oh-Gf8" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" id="YGg-QS-Enf"/>
+                            <constraint firstAttribute="bottom" secondItem="LiE-oh-Gf8" secondAttribute="bottom" id="kTO-73-mhR"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="键盘遮挡输入" id="CpH-l4-t5a"/>
+                    <connections>
+                        <outlet property="bottomConstraint" destination="NoD-NR-ZTL" id="U3b-av-LNV"/>
+                        <outlet property="contentView" destination="YaN-Cy-tox" id="2JJ-9K-77V"/>
+                        <outlet property="scrollView" destination="LiE-oh-Gf8" id="Nj6-5O-Mj6"/>
+                        <outlet property="textField1" destination="x11-OQ-gjK" id="k1r-9N-SIq"/>
+                        <outlet property="textField2" destination="ufU-rh-hTa" id="D1F-ez-S53"/>
+                        <outlet property="textField3" destination="47E-Vz-d1g" id="3dZ-3p-E57"/>
+                        <outlet property="textField4" destination="mYc-nw-zcI" id="htn-Qk-xpd"/>
+                        <outlet property="textField5" destination="PxW-Ct-9uL" id="1im-Tc-H60"/>
+                        <outlet property="textField6" destination="bSO-wS-KWb" id="12n-h2-bXI"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="680" y="-328"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="lhX-1r-WwP">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="o9C-3A-OhX" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="hjZ-sT-Cfm">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="rootViewController" id="WlZ-p0-jQW"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lkc-Sc-Fuz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="177" y="-328"/>
+        </scene>
+    </scenes>
+</document>
